@@ -1,0 +1,140 @@
+/* Root Variables */
+:root {
+    --main-gray: #f4f4f9;
+    --main-red: #e63946;
+    --main-font: 'Poppins', sans-serif;
+    --heading-font: 'Raleway', sans-serif;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: var(--main-font);
+    background-color: var(--main-gray);
+    color: #333;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    margin: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: var(--main-gray);
+}
+
+.hero-title {
+    font-size: 6rem;
+    color: var(--main-red);
+}
+
+.hero-description {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.hero-btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    background: var(--main-red);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+    background: darkred;
+}
+
+/* About Section */
+.about-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: var(--main-gray);
+}
+
+.about-section h2 {
+    font-size: 4rem;
+}
+
+.about-section p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+}
+
+.contact-section-header > h2 {
+    font-size: 6rem;
+    font-family: var(--heading-font);
+}
+
+@media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+        font-size: 4rem;
+    }
+}
+
+.contact-section-header > p {
+    font-style: italic;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    background: var(--main-red);
+    color: #fff;
+}
+
+.btn:hover {
+    transform: translateY(8px);
+}
+
+.contact-details {
+    background-color: var(--main-red);
+}
+
+/* Footer */
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background:
