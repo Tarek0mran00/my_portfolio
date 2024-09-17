@@ -106,19 +106,44 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
-    image: memoryGame,
-    source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
+    name: "Emojipedia",
+    description: "A comprehensive guide to emojis with detailed descriptions. Explore a wide range of emojis and learn about their meanings and usage.",
+    image: 'https://blog.emojipedia.org/content/images/size/w600/2022/12/Emojipedia-Twitter-Emoji-Stickers-Header-Image.jpg', // Replace with the path to an image representing your Emojipedia project
+    source_code_link: 'https://github.com/Tarek0mran00/emojipedia.git', // Replace with the actual source code link
+    demo_link: 'https://react-emojipedia-omran.netlify.app/', // Replace with the actual demo URL
   },
   {
-    name: 'Connect 4',
-    description: 'This project implements Connect Four in Python and Pygame, featuring a GUI and gameplay modes for player vs. AI and AI vs. AI. The AI uses the MiniMax algorithm, with optional alpha-beta pruning for improved performance.',
-    image: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjRkaWp6MDJ1cXNrZmMzaTZ2aXVhcWtndWJpNHg0djRpYWdtYjF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/p49LPwL9yAoZInx28N/giphy.gif",
-    source_code_link: 'https://github.com/bl33h/connectFour',
-    demo_link: 'https://youtu.be/CBceC2BXJyE',
-  },
+    name: "Fanta Drink Web",
+    description: "A web application showcasing different Fanta drink flavors using react and tailwind. Browse through a variety of Fanta beverages, view details, and learn more about each drink.",
+    image: 'https://images.unsplash.com/photo-1625740822008-e45abf4e01d5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    source_code_link: 'https://github.com/Tarek0mran00/fanta-site-react.git', // Replace with the actual source code link
+    demo_link: 'https://fanta-app-omran.netlify.app/', // Replace with the actual demo URL
+  }
+,  
+  {
+    "name": "Joke Fetcher",
+    "description": "An entertaining app that fetches random jokes from an API. Enjoy a collection of jokes, mark your favorites, and refresh for new laughs. The app features an engaging design and user-friendly interface to brighten your day with humor.",
+    "image": "https://images.unsplash.com/photo-1504660069764-2b37e279874a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with the path to an image representing your Joke Fetcher app
+    "source_code_link": "https://github.com/Tarek0mran00/joker_app.git", // Replace with the actual source code link
+    "demo_link": "https://omran-joker-app.netlify.app/" // Replace with the actual demo URL
+  }
+,  
+{
+  name: 'Shoes App',
+  description: 'An interactive shoe collection app developed using React and styled with Tailwind CSS. Users can view shoe thumbnails and select a shoe to see a larger image.',
+  image: 'https://images.unsplash.com/photo-1491892490418-db61fd635ce4?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  source_code_link: 'https://github.com/Tarek0mran00/my-shoes-app.git',
+  demo_link: 'https://omran-nike-app.netlify.app/'
+}
+,
+  {
+    name: "Keeper App",
+    description: 'A note-taking application developed using React. Create, edit, and organize your notes efficiently with this intuitive and user-friendly app.',
+    image: "https://user-images.githubusercontent.com/91674419/194080548-f101a81a-f5e6-435d-876e-bd3b2f074c39.png", // Replace with the actual image variable or URL
+    source_code_link: 'https://github.com/Tarek0mran00/react-note-app.git', // Replace with the actual GitHub link
+    demo_link: 'https://keeper-notes-omran.netlify.app/' // Replace with the actual demo link
+  }
+,  
   {
     name: 'Pawsitive',
     description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
@@ -142,11 +167,14 @@ const projects = [
   },
   {
     name: 'To do app',
-    description: 'A simple to do app implemented using react',
-    image: "https://play-lh.googleusercontent.com/QhQaJhzdWrZ08HfrsqylDUFIzMjcUxh0UNvFqeZRSpGsTSLC3UyLLq5u9ggKOr-8tQ",
+    description: 'A simple to do app implemented using React.',
+    image: 'https://images.unsplash.com/photo-1506784242126-2a0b0b89c56a?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     source_code_link: 'https://github.com/Tarek0mran00/to_do_list_react.git',
     demo_link: 'https://omran-reactjs-to-do-list.netlify.app/',
-  },
+  }
+  
+  
+  ,
   {
     name: 'Fibonacci & Factorial',
     description: 'A project that includes two LISP programs: one for factorials and the other for Fibonacci sequences. They use recursion, prompt user input, and display results efficiently.',
