@@ -106,6 +106,14 @@ export const navLinks = [
 
 const projects = [
   {
+    name: "Promptopia",
+    description: "A Next.js full stack web app to create prompts and use them. Explore a variety of prompts and enhance your creative process.",
+    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Replace with the path to an image representing your Promptopia project
+    source_code_link: 'https://github.com/Tarek0mran00/Promptopia.git', // Replace with the actual source code link
+    demo_link: 'https://promptopia-tflz.vercel.app', // Replace with the actual demo URL
+  }
+  ,
+  {
     name: "Emojipedia",
     description: "A comprehensive guide to emojis with detailed descriptions. Explore a wide range of emojis and learn about their meanings and usage.",
     image: 'https://blog.emojipedia.org/content/images/size/w600/2022/12/Emojipedia-Twitter-Emoji-Stickers-Header-Image.jpg', // Replace with the path to an image representing your Emojipedia project
