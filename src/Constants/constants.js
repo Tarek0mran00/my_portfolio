@@ -105,6 +105,13 @@ export const navLinks = [
 ];
 
 const projects = [
+   {
+    name: "AnimeScroller",
+    description: "A Next.js that uses server actions,infinite scrolling and framer-motion",
+    image: "https://images.unsplash.com/photo-1601850494422-3cf14624b0b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with the path to an image representing your Promptopia project
+    source_code_link: 'https://github.com/Tarek0mran00/AnimeScroller.git', // Replace with the actual source code link
+    demo_link: 'https://anime-scroller-lake.vercel.app/', // Replace with the actual demo URL
+  },
   {
     name: "Promptopia",
     description: "A Next.js full stack web app to create prompts and use them. Explore a variety of prompts and enhance your creative process.",
